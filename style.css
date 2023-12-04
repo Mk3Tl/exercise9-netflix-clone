@@ -128,6 +128,21 @@ nav button {
 .content{
   background-color:rgb(41 13 39);
   color: white;
- width: 79vw;
+ width: 70vw;
  margin: auto;
+ display: flex;
+ flex-direction: column;
+ padding: 23px 40px;
+ border-radius: 10px;
+}
+#one{
+  font-weight: 700;
+  padding: 10px 0;
+  font-size: 2rem;
+}
+#two{
+  color: rgb(255 255 255 / 70%);
+}
+.grid{
+  background-color: yellow;
 }
