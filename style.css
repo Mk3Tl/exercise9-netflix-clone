@@ -28,7 +28,7 @@ bodY {
 }
 nav {
   max-width: 90vw;
-  margin: auto;
+  margin: 10px auto;
   justify-content: space-between;
   display: flex;
   align-items: center;
@@ -43,6 +43,22 @@ nav img {
 nav button {
   position: relative;
   z-index: 3;
+  top: -0.7rem;
+}
+#redbtn{
+  background-color: red;
+  color: white;
+  padding: 4px 9px;
+  font-weight: bolder;
+  border-radius: 4px;
+}
+#transparent{
+  padding: 4px 11px;
+  font-weight: bolder;
+  border-radius: 4px;
+  background-color: rgba(15, 15, 15, 0.801);
+  color: white;
+  border: 1px solid rgb(122, 120, 120);
 }
 .hero {
   /* background-color: red; */
@@ -156,6 +172,12 @@ nav button {
 }
 .boxes {
   display: flex;
+  /* flex-wrap: wrap; */
+  
+}
+
+@media only screen and (max-width:480px) {
+  .boxes{flex-direction: column;}
 }
 .fun {
   padding: 2rem 1.5rem 8rem 1.5rem;
