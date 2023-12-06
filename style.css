@@ -74,7 +74,7 @@ nav button {
   margin-right:3px ;
 }
 .hero {
-  background-color: red;
+  /* background-color: red; */
   width: 78vw;
   margin: auto;
   height: 100%;
@@ -275,9 +275,20 @@ footer h4 span{
 }
 .footer{
   display: grid;
-  grid-template-columns: 100px 100px 100px 100px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 1rem 6rem;
   text-decoration: underline;
   cursor: pointer;
   font-weight: lighter;
+}
+@media screen and (max-width: 480px) {
+  .footer{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem 6rem;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: lighter;
+  }
+  
 }
