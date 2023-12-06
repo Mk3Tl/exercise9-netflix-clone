@@ -36,7 +36,7 @@ bodY {
 }
 nav {
   max-width: 90vw;
-  margin: 10px auto;
+  margin: 0px auto;
   justify-content: space-between;
   display: flex;
   align-items: center;
@@ -74,7 +74,7 @@ nav button {
   margin-right:3px ;
 }
 .hero {
-  /* background-color: red; */
+  background-color: red;
   width: 78vw;
   margin: auto;
   height: 100%;
@@ -85,8 +85,14 @@ nav button {
   color: white;
   position: relative;
   font-family: "Martel Sans", sans-serif;
-  padding: 0 30px;
-  text-align: center;
+  /* padding: 0 30px; */
+  /* text-align: center; */
+}
+@media  only screen  and (min-width: 782px) {
+    .submit{
+      margin-top:5px
+    }
+  
 }
 .hero span {
   padding: 8px 0;
@@ -127,8 +133,7 @@ nav button {
   color: white;
   border: 0px;
   border-radius: 4px;
-  /* margin: 2px 4px; */
-  margin: 0 0.4rem;
+  margin: 6px 4px;
   font-weight: 700;
   position: relative;
 }
