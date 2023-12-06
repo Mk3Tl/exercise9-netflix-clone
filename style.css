@@ -95,6 +95,11 @@ nav button {
     font-weight: 900;
     text-align: center;
   }
+  .hero{
+  display: flex;
+  align-items: flex-start;
+  
+  }
 }
 #second {
   font-size: 1rem;
@@ -146,7 +151,7 @@ nav button {
   }
   #input{
   width: 70vw;
-  background-color: blue;
+  /* background-color: blue; */
   }
 }
 
