@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,500&display=swap');
-@media only screen and (max-width: 480px) {
-  .boxes {
-    flex-direction: column;
-  }
-  .fun{
-    margin-top: 5px;
-    height: 10rem;
-  }
-}
+
 * {
   margin: 0;
   padding: 0;
@@ -88,19 +80,21 @@ nav button {
   /* padding: 0 30px; */
   /* text-align: center; */
 }
-@media  only screen  and (min-width: 782px) {
-    .submit{
-      margin-top:5px
-    }
-  
-}
+
 .hero span {
   padding: 8px 0;
 }
 #first {
-  font-size: 2.5rem;
+  font-size: 48px;
   font-weight: 900;
   text-align: center;
+}
+@media screen and (max-width:680px) {
+  #first {
+    font-size: 32px;
+    font-weight: 900;
+    text-align: center;
+  }
 }
 #second {
   font-size: 1rem;
@@ -145,6 +139,14 @@ nav button {
 }
 .submit:hover{
   background-color: rgb(165, 13, 13);
+}
+@media  only screen  and (max-width: 782px) {
+  .submit{
+    margin-top:20px
+  }
+  #input{
+  width: 70vw;
+  }
 }
 
 .line {
@@ -291,4 +293,13 @@ footer h4 span{
     font-weight: lighter;
   }
   
+}
+@media only screen and (max-width: 480px) {
+  .boxes {
+    flex-direction: column;
+  }
+  .fun{
+    margin-top: 5px;
+    height: 10rem;
+  }
 }
