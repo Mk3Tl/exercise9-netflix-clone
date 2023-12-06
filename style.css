@@ -267,7 +267,7 @@ nav button {
   margin-top: 2rem;
 }
 .last #input{
-  width: 50rem;
+  width: 50vw;
 }
 footer{
   color: white;
@@ -314,5 +314,8 @@ footer h4 span{
     font-size: 25px;
     background-color: blue;
     /* to be removed */
+  }
+  .last #input{
+    width: 70vw;
   }
 }
