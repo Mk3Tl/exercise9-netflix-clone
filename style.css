@@ -98,7 +98,9 @@ nav button {
   .hero{
   display: flex;
   align-items: flex-start;
-  
+  }
+  nav img{
+    width: 100px;
   }
 }
 #second {
@@ -307,5 +309,10 @@ footer h4 span{
   .fun{
     margin-top: 5px;
     height: 10rem;
+  }
+  .faq{
+    font-size: 25px;
+    background-color: blue;
+    /* to be removed */
   }
 }
