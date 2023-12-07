@@ -312,7 +312,8 @@ footer h4 span{
   }
   .faq{
     font-size: 25px;
-    background-color: blue;
+    /* background-color: blue; */
+    margin: auto;
     /* to be removed */
   }
   .last #input{
