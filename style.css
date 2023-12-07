@@ -305,6 +305,7 @@ footer h4 span {
 @media only screen and (max-width: 710px) {
   .boxes {
     flex-direction: column;
+    /* margin: auto; */
   }
   .fun {
     margin-top: 5px;
@@ -324,5 +325,6 @@ footer h4 span {
   #block_3,
   #block_4 {
     height: 14rem;
+    margin-top: 10px;
   }
 }
