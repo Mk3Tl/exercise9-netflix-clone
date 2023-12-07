@@ -298,6 +298,9 @@ footer h4 span {
     cursor: pointer;
     font-weight: lighter;
   }
+  footer{
+    font-size: small;
+  }
 }
 @media only screen and (max-width: 710px) {
   .boxes {
