@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,500&display=swap");
 
 * {
   margin: 0;
@@ -53,7 +53,7 @@ nav button {
   border-radius: 4px;
   border: 1px solid transparent;
 }
-#redbtn:hover{
+#redbtn:hover {
   background-color: rgb(165, 13, 13);
 }
 #transparent {
@@ -63,7 +63,7 @@ nav button {
   background-color: rgba(15, 15, 15, 0.801);
   color: white;
   border: 1px solid rgb(122, 120, 120);
-  margin-right:3px ;
+  margin-right: 3px;
 }
 .hero {
   /* background-color: red; */
@@ -89,17 +89,17 @@ nav button {
   font-weight: 900;
   text-align: center;
 }
-@media screen and (max-width:680px) {
+@media screen and (max-width: 680px) {
   #first {
     font-size: 32px;
     font-weight: 900;
     text-align: center;
   }
-  .hero{
-  display: flex;
-  align-items: flex-start;
+  .hero {
+    display: flex;
+    align-items: flex-start;
   }
-  nav img{
+  nav img {
     width: 100px;
   }
 }
@@ -144,16 +144,16 @@ nav button {
   top: 25%;
   left: 83%;
 }
-.submit:hover{
+.submit:hover {
   background-color: rgb(165, 13, 13);
 }
-@media  only screen  and (max-width: 782px) {
-  .submit{
-    margin-top:20px
+@media only screen and (max-width: 782px) {
+  .submit {
+    margin-top: 20px;
   }
-  #input{
-  width: 70vw;
-  /* background-color: blue; */
+  #input {
+    width: 70vw;
+    /* background-color: blue; */
   }
 }
 
@@ -207,7 +207,6 @@ nav button {
   /* flex-wrap: wrap; */
 }
 
-
 .fun {
   padding: 2rem 1.5rem 8rem 1.5rem;
   /* border: 2px solid red; */
@@ -239,19 +238,19 @@ nav button {
   bottom: 0;
   /* right: 0; */
 }
-.faq h2{
+.faq h2 {
   font-size: 24px;
   font-weight: 700;
 }
-.faq{
+.faq {
   color: white;
   width: 70vw;
   /* flex-direction: column; */
   margin: 0px 8.7rem;
- /* background-color: yellow; */
- font-size: 27px;
+  /* background-color: yellow; */
+  font-size: 27px;
 }
-.faqbox{
+.faqbox {
   background-color: rgb(45, 45, 45);
   margin-top: 1rem;
   padding: 15px;
@@ -260,30 +259,29 @@ nav button {
   justify-content: space-between;
   cursor: pointer;
 }
-.faqbox:hover{
+.faqbox:hover {
   background-color: rgb(65, 65, 65);
 }
-.last{
+.last {
   margin-top: 2rem;
 }
-.last #input{
+.last #input {
   width: 50vw;
 }
-footer{
+footer {
   color: white;
-  margin:5rem  auto;
+  margin: 5rem auto;
   width: 70vw;
-
 }
-footer h4{
+footer h4 {
   margin-bottom: 2rem;
   font-weight: lighter;
 }
-footer h4 span{
+footer h4 span {
   text-decoration: underline;
   cursor: pointer;
 }
-.footer{
+.footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 1rem 6rem;
@@ -291,8 +289,8 @@ footer h4 span{
   cursor: pointer;
   font-weight: lighter;
 }
-@media screen and (max-width: 480px) {
-  .footer{
+@media screen and (max-width: 710px) {
+  .footer {
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem 6rem;
@@ -300,23 +298,28 @@ footer h4 span{
     cursor: pointer;
     font-weight: lighter;
   }
-  
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 710px) {
   .boxes {
     flex-direction: column;
   }
-  .fun{
+  .fun {
     margin-top: 5px;
     height: 10rem;
   }
-  .faq{
+  .faq {
     font-size: 25px;
     /* background-color: blue; */
     margin: auto;
     /* to be removed */
   }
-  .last #input{
+  .last #input {
     width: 70vw;
+  }
+  #block_1,
+  #block_2,
+  #block_3,
+  #block_4 {
+    height: 14rem;
   }
 }
